@@ -10,7 +10,7 @@ const libros =
 
  { 
     id: '3' , titulo: 'Libro 3' , autor: 'Autor 3'
- },
+},
 
     ];
     module.exports = libros;
