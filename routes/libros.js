@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Joi = require('joi');
-const Libro = require("../models/Libro");
+const Libro = require("../models/Libro " );
 
 // Middleware para validar scopes
 const { requiredScopes } = require("express-oauth2-jwt-bearer");
